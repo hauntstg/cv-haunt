@@ -1,0 +1,97 @@
+@media only screen and (max-width: 576px) {
+  /* section > .container {
+    width: 100%;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+  } */
+  section > .container {
+    width: 100%;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+  }
+  /* Narbar */
+  #nav-bar .container a {
+    display: block;
+  }
+  #nav-bar .container a:nth-child(3) {
+    display: none;
+  }
+  nav a {
+    padding: 15px;
+    border: 0;
+  }
+  nav a:nth-child(2),
+  nav a:nth-child(5) {
+    border: 0;
+  }
+
+  /* INFOR */
+  #about {
+    background: linear-gradient(to bottom, #f7f7f7 50%, #e9ecef 50%);
+  }
+
+  /* CHUNG CHI */
+  #certificate .section-title {
+    padding: 0 !important;
+  }
+
+  #certificate img {
+    width: 100%;
+  }
+
+  .cer-item {
+    border: 0;
+    border-bottom: 1px solid #d6c08d;
+    padding: 40px 0;
+  }
+
+  .cer-item3 {
+    margin-top: 0 !important;
+  }
+
+  .cer-list > :nth-child(even) {
+    border-left: 0;
+    padding-left: 0 !important;
+  }
+
+  /* DU AN */
+  .pro-item {
+    margin-top: 20px;
+  }
+
+  /* PROJECT CHARTER */
+  .goal,
+  .team {
+    height: auto;
+  }
+
+  .scope,
+  .primary {
+    height: auto;
+  }
+
+  .scope {
+    margin-bottom: 0px !important;
+  }
+
+  .goal {
+    height: auto;
+  }
+
+  .team {
+    margin-top: 0px !important;
+    height: auto;
+  }
+
+  .timeline {
+    height: auto;
+  }
+
+  .primary {
+    height: auto;
+  }
+}

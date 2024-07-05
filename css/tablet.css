@@ -1,0 +1,71 @@
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  /* section > .container {
+    width: 100%;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+  } */
+  /* Navbar */
+  .empty {
+    display: none;
+  }
+  /* masonary layout */
+  #job-info .row {
+    display: inline-block;
+    column-count: 2;
+  }
+
+  #job-info .row > div {
+    width: 100%;
+  }
+
+  /* HOAT DONG */
+  .activity {
+    margin-top: 170px;
+  }
+
+  #job-info .row > div:first-child {
+    margin-top: 0;
+  }
+
+  .experience,
+  .education,
+  .activity,
+  .hobby,
+  .language,
+  .skill {
+    padding: 15px;
+  }
+
+  /* DU AN */
+  .pro-table td {
+    vertical-align: top;
+    padding: 5px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  /* PROJECT CHARTER */
+  .goal {
+    height: auto;
+  }
+
+  .team {
+    margin-top: 0px !important;
+    height: auto;
+  }
+
+  .scope {
+    height: auto;
+  }
+
+  .timeline {
+    height: auto;
+  }
+
+  .primary {
+    height: auto;
+  }
+}
