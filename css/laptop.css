@@ -263,6 +263,11 @@ nav a:nth-child(5) {
 .cer-list > :nth-child(even) {
   border-left: 1px #d6c08d solid;
   padding-left: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.cer-list > :nth-child(odd) {
+  margin-bottom: 10px !important;
 }
 
 .cer-item3 {
